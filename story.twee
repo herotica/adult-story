@@ -1,0 +1,19 @@
+:: StoryData
+{
+    "ifid": "7de93aff-59bb-4857-a9ee-102977d9205b",
+    "format": "SugarCube",
+    "format-version": "2.26.1",
+    "start": "Start"
+}
+
+:: StoryTitle
+My test story!
+
+:: Start
+This is the first passage in a Twine game!
+
+[[This is a link|Next Passage]]
+
+
+:: Next Passage
+The player just clicked a link to get here!
