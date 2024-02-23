@@ -6,14 +6,71 @@
     "start": "Start"
 }
 
+:: Main[stylesheet]
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -100;
+}
+html {
+    height: 100vh;
+}
+#story {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+}
+#passages {
+    border: 0.25rem solid #253969;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background: hsl(222.35deg 14.17% 47.06% / 70%);
+    margin-bottom: 2rem;
+    width: 76vw;
+    max-height: 14rem;
+}
+#passages:first-child {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+#passages:first-child::-webkit-scrollbar {
+  width: 20px;
+}
+
+#passages:first-child::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+#passages:first-child::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+#passages:first-child::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
 :: StoryTitle
-My test story!
+FutaCop
 
 :: Start
 This is the first passage in a Twine game!
-
+<img src="https://nsfw-story-cdn.netlify.app/media/images/bg/dark_street.jpg" class='bg'>
+<<set $strength to 10>><<set $intelligence to 10>><<set $charm to 10>><<set $corruption to 10>>
 [[This is a link|Next Passage]]
-
 
 :: Next Passage
 The player just clicked a link to get here!

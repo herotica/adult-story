@@ -1,2 +1,2 @@
-build :: C:\Apps\tweego.exe -o build\example.html story.twee
-
+build :: C:\Apps\tweego\tweego.exe -o build\example.html story.twee
+bash build :: C:/Apps/tweego/tweego.exe -o build/example.html story.twee
