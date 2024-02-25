@@ -20,7 +20,7 @@ Corruption: $corruption
 :: Start
 Hi, I'm Clara, I'm a Cop fresh out of the academy, this game is a story about how I took advantage of my new role to have fun, and may fight some crime, but it's a quiet town, and that makes this the easiest job ever!
 <img src="https://nsfw-story-cdn.netlify.app/media/images/bg/dark_street.jpg" class='bg'>
-<<set $strength to 10>><<set $intelligence to 10>><<set $charm to 10>><<set $corruption to 0>><<set $day to 10>><<set $feared to 0>>
+<<set $strength to 10>><<set $intelligence to 10>><<set $charm to 10>><<set $corruption to 0>><<set $day to 1>><<set $feared to 0>>
 [[>>>>|Intro2]]
 
 :: Intro2

@@ -2,7 +2,7 @@
 
 ### 1 - no req
 
-Rookie Melanie - blonde rookie, coaxed into BJ via exam answers
+Rookie Melanie - blonde ponytail rookie, petite B Cup, tease, nerdy, coaxed into BJ via exam answers
 
 Becky - Apartment MILF, kitchin f
 
