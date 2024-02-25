@@ -1,0 +1,30 @@
+:: StoryData
+{
+    "ifid": "7de93aff-59bb-4857-a9ee-102977d9205b",
+    "format": "SugarCube",
+    "format-version": "2.26.1",
+    "start": "Start"
+}
+
+:: StoryTitle
+FutaCop
+
+:: StoryCaption
+Day: $day
+
+Strength: $strength
+Intelligence: $intelligence
+Charm: $charm
+Corruption: $corruption
+
+:: Start
+Hi, I'm Clara, I'm a Cop fresh out of the academy, this game is a story about how I took advantage of my new role to have fun, and may fight some crime, but it's a quiet town, and that makes this the easiest job ever!
+<img src="https://nsfw-story-cdn.netlify.app/media/images/bg/dark_street.jpg" class='bg'>
+<<set $strength to 10>><<set $intelligence to 10>><<set $charm to 10>><<set $corruption to 0>><<set $day to 10>><<set $feared to 0>>
+[[This is a link|Next Passage]]
+
+:: Next Passage
+The player just clicked a link to get here!
+<img src="https://nsfw-story-cdn.netlify.app/media/images/bg/dark_street.jpg" class='bg'>
+
+[[Home|Home]]
