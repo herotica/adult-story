@@ -1,0 +1,32 @@
+:: BG[stylesheet]
+:root {
+  --main-bg-color: pink;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -100;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body[data-tags~="intro"] {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/dark_street.jpg");
+}
+body[data-tags~="home"] {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/home.webp");
+}
+body[data-tags~="academy"] {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/academy.webp");
+}
+body[data-tags~="academy-office"] {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/academy.webp");
+}
+body[data-tags~="apartments"] {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/apartments.webp");
+}
+body[data-tags~="town"] {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/town.webp");
+}

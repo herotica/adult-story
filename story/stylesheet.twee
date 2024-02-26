@@ -1,14 +1,12 @@
 :: Main[stylesheet]
-.bg {
-  width: 100vw;
-  height: 100vh;
+.c_middle {
   position: absolute;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -100;
+}
+.c_left {
+  position: absolute;
+}
+.c_right {
+  position: absolute;
 }
 html {
     height: 100vh;
