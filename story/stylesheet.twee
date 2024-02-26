@@ -18,19 +18,26 @@
   right: 5%;
 }
 .quiet {
-  opacity: 50%
+  opacity: 65%
 }
 html {
     height: 100vh;
 }
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  max-width: 100vw;
+  overflow: hidden;
+}
 #story {
-    margin-top: 0;
-    margin-bottom: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: flex-end;
+  flex: 1 1 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 #passages {
     border: 0.25rem solid #253969;
@@ -38,7 +45,6 @@ html {
     padding: 1.5rem;
     background: hsl(222.35deg 14.17% 47.06% / 70%);
     margin-bottom: 2rem;
-    width: 76vw;
     max-height: 14rem;
     position: relative;
     z-index 10;

@@ -1,0 +1,49 @@
+:: Char[stylesheet]
+
+.img-row {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem 0rem;
+  align-items: flex-end;
+  /* for scene images */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.img1, .img2, .img3 {
+  max-width: 40vw;
+  height: 55vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.img2 {
+  flex: 5 1 5rem;
+}
+.img1, .img3 {
+  flex: 1 1 18rem;
+}
+/* player */
+body[data-tags~="cop_main"] .img1 {
+  flex: 4 1 18rem;
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_main.webp");
+}
+body[data-tags~="cop_main-c"] .img2 {
+  flex: 4 1 18rem;
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_main.webp");
+}
+body[data-tags~="cop_home"] .img2 {
+  flex: 4 1 18rem;
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_home.webp");
+}
+
+/* Other chars */
+body[data-tags~="melanie"] .img3 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie.webp");
+}
+
+body[data-tags~="melanie_scene1-1"] .img-row {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie_scene1-1.jpg");
+}
+/*  */

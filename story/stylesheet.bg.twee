@@ -1,11 +1,6 @@
 :: BG[stylesheet]
-:root {
-  --main-bg-color: pink;
-}
+
 body {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
   z-index: -100;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,13 +1,15 @@
 Rookie Melanie - black hair bob with fringe rookie, petite B Cup, tease, nerdy, coaxed into BJ via exam answers
 
-:: Rookie
+:: Rookie [academy cop_main melanie]
 Hey there you look lost!
-<img src="https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_main.webp" class='c_left'>
-<img src="https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie.webp" class='c_right quiet'>
+
 [[>>>>|Rookie2]]
 
-:: Rookie2
-2
-<img src="https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_main.webp" class='c_left quiet'>
-<img src="https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie.webp" class='c_right'>
+:: Rookie2 [academy cop_main melanie]
+No, just panicing, I've got exams coming up, no idea what I'm going to do!!
+
+[[Go RookieSceneTest...|RookieSceneTest]]
+
+:: RookieSceneTest [academy melanie_scene1-1]
+...
 [[Go Home...|Home]]
