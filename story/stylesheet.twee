@@ -1,6 +1,11 @@
 :: Main[stylesheet]
 .c_middle {
   position: absolute;
+  z-index: 0;
+  left: 35%;
+  bottom: calc(100% + 4px);
+  max-height: 50vh;
+  max-width: 40vw;
 }
 .c_left {
   position: absolute;
@@ -28,8 +33,10 @@ html {
     margin-bottom: 2rem;
     width: 76vw;
     max-height: 14rem;
+    position: relative;
+    z-index 10;
 }
-#passages:first-child {
+#passages > div:first-child {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
@@ -55,4 +62,12 @@ html {
 
 #story-caption {
   text-align: start;
+}
+
+a {
+  font-weight: bold;
+  color: #ea9b8e;
+}
+a:hover {
+  color: white;
 }
