@@ -1,17 +1,24 @@
 :: Main[stylesheet]
-.c_middle {
+.c_middle,
+.c_left,
+.c_right {
   position: absolute;
   z-index: 0;
-  left: 35%;
   bottom: calc(100% + 4px);
   max-height: 50vh;
   max-width: 40vw;
 }
+.c_middle {
+  left: 35%;
+}
 .c_left {
-  position: absolute;
+  left: 5%;
 }
 .c_right {
-  position: absolute;
+  right: 5%;
+}
+.quiet {
+  opacity: 50%
 }
 html {
     height: 100vh;
