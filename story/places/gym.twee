@@ -14,5 +14,7 @@ I'm too strong I need bigger weights to improve
 <<set $strength to $strength + 1>>
 Ooooh, that hurst, but in a good way
 
+<<nobr>>
 [[Return to Academy...|Academy]]
 [[Stay in Gym|Freeweight Gym]]
+<</nobr>>

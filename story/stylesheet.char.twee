@@ -24,6 +24,12 @@
 .img1, .img3 {
   flex: 1 1 18rem;
 }
+body[data-tags~="lquiet"] .img1,
+body[data-tags~="mquiet"] .img2,
+body[data-tags~="rquiet"] .img3 {
+  filter: brightness(0.5);
+  opacity: 85%
+}
 /* player */
 body[data-tags~="cop_main"] .img1 {
   flex: 4 1 18rem;
