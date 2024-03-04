@@ -12,6 +12,7 @@ FutaCop
 :: StoryCaption
 Day: $day
 
+Cash: £$cash
 Strength: $strength
 Intelligence: $intelligence
 Charm: $charm
@@ -25,8 +26,16 @@ Corruption: $corruption
 
 :: Start [intro cop_main-c]
 Hi, I'm Clara, I'm a Cop fresh out of the academy, this game is a story about how I took advantage of my new role to have fun, and may fight some crime, but it's a quiet town, and that makes this the easiest job ever!
-
-<<set $strength to 10>><<set $intelligence to 10>><<set $charm to 10>><<set $corruption to 0>><<set $day to 1>><<set $feared to 0>>
+<<nobr>>
+<<set $cash to 120>>
+<<set $strength to 10>>
+<<set $intelligence to 10>>
+<<set $charm to 10>>
+<<set $corruption to 0>>
+<<set $day to 1>>
+<<set $feared to 0>>
+<<set $libraryCard to false>>
+<</nobr>>
 [[>>>>|Intro2]]
 
 :: Intro2 [intro cop_main-c]

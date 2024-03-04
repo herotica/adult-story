@@ -1,0 +1,18 @@
+:: Public Library
+A rather nice localy library with lots to read.
+
+
+<<if $intelligence < 21>>
+I could do some studying, wouldn't hurt to get smarter
+
+[[Study|Library - Study]]
+<<else>>
+Theres nothing else here I'm interested in, I'll need a tutor otherwise I just loose focus
+<</if>>
+
+:: Library - Study
+<<set $intelligence to $intelligence + 1>>
+Can't say that was fun, but I do feel a little smarter
+
+[[Return to Town...|Town]]
+[[Stay in Library|Public Library]]

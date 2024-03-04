@@ -1,0 +1,18 @@
+:: Freeweight Gym
+
+It's a basic gym, but it's open to anyone whose in or passed the academy
+
+<<if $strength < 21>>
+I'm feeling pumped, think it's time for some exercise
+
+[[Train|Gym - gain strength]]
+<<else>>
+I'm too strong I need bigger weights to improve
+<</if>>
+
+:: Gym - gain strength
+<<set $strength to $strength + 1>>
+Ooooh, that hurst, but in a good way
+
+[[Return to Academy...|Academy]]
+[[Stay in Gym|Freeweight Gym]]
