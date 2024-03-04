@@ -24,6 +24,16 @@
 .img1, .img3 {
   flex: 1 1 18rem;
 }
+body[data-tags~="lc"] .img1 {
+  flex: 4 1 18rem;
+}
+body[data-tags~="rc"] .img3 {
+  flex: 4 1 18rem;
+}
+body[data-tags~="both"] .img1,
+body[data-tags~="both"] .img3 {
+  flex: 4 1 18rem;
+}
 body[data-tags~="lquiet"] .img1,
 body[data-tags~="mquiet"] .img2,
 body[data-tags~="rquiet"] .img3 {
@@ -32,24 +42,66 @@ body[data-tags~="rquiet"] .img3 {
 }
 /* player */
 body[data-tags~="cop_main"] .img1 {
-  flex: 4 1 18rem;
   background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_main.webp");
 }
 body[data-tags~="cop_main-c"] .img2 {
-  flex: 4 1 18rem;
   background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_main.webp");
 }
 body[data-tags~="cop_home"] .img2 {
-  flex: 4 1 18rem;
   background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_home.webp");
+}
+body[data-tags~="cop_angry"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_angry.webp");
+}
+body[data-tags~="cop_annoyed"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_annoyed.webp");
+}
+body[data-tags~="cop_chastise"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_chastise.webp");
+}
+body[data-tags~="cop_embarressed"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_embarressed.webp");
+}
+body[data-tags~="cop_evil"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_evil.webp");
+}
+body[data-tags~="cop_friendly"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_friendly.webp");
+}
+body[data-tags~="cop_shocked"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_shocked.webp");
+}
+body[data-tags~="cop_shouting"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_shouting.webp");
+}
+body[data-tags~="cop_smug"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_smug.webp");
+}
+/* player - nude */
+body[data-tags~="cop_cock-full"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_cock-full.webp");
+}
+body[data-tags~="cop_cock-semi"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_cock-semi.webp");
+}
+body[data-tags~="cop_cock-flaccid"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_cock-flaccid.webp");
+}
+body[data-tags~="cop_nude-flaccid-tired"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_nude-flaccid-tired.webp");
+}
+body[data-tags~="cop_tits-shy"] .img1 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/player/cop_tits-shy.webp");
 }
 
 /* Other chars */
 body[data-tags~="melanie"] .img3 {
   background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie.webp");
 }
-
 body[data-tags~="melanie_scene1-1"] .img-row {
   background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie_scene1-1.jpg");
+}
+body[data-tags~="melanie_scene1-2"] .img-row {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie_scene1-2.jpg");
 }
 /*  */
