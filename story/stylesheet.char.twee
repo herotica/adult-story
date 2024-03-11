@@ -98,6 +98,15 @@ body[data-tags~="cop_tits-shy"] .img1 {
 body[data-tags~="melanie"] .img3 {
   background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie.webp");
 }
+body[data-tags~="melanie_shock"] .img3 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie_shock.webp");
+}
+body[data-tags~="melanie_annoyed-kneel"] .img3 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie_annoyed-kneel.webp");
+}
+body[data-tags~="melanie_ready"] .img3 {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie_ready.webp");
+}
 body[data-tags~="melanie_scene1-1"] .img-row {
   background-image: url("https://nsfw-story-cdn.netlify.app/media/images/char/rookie/melanie_scene1-1.jpg");
 }

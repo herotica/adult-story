@@ -17,7 +17,10 @@ body[data-tags~="academy"] {
   background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/academy.webp");
 }
 body[data-tags~="academy-office"] {
-  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/academy.webp");
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/academy-office.webp");
+}
+body[data-tags~="academy-closet"] {
+  background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/academy-closet.webp");
 }
 body[data-tags~="apartments"] {
   background-image: url("https://nsfw-story-cdn.netlify.app/media/images/bg/apartments.webp");

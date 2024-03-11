@@ -19,19 +19,23 @@ body {
   justify-content: end;
 }
 #passages {
-    border: 0.25rem solid #253969;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    background: hsl(222.35deg 14.17% 47.06% / 70%);
-    margin-bottom: 2rem;
-    max-height: 14rem;
-    position: relative;
-    z-index 10;
+  width: -webkit-fill-available;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+  border: 0.25rem solid #253969;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  background: hsl(222.35deg 14.17% 47.06% / 70%);
+  margin-bottom: 2rem;
+  max-height: 14rem;
+  position: relative;
+  z-index 10;
 }
 #passages > div:first-child {
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
 }
 #passages:first-child::-webkit-scrollbar {
   width: 20px;
